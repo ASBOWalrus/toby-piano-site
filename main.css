@@ -8,9 +8,10 @@ body {
 
 header {
 	padding: 20px 0;
-	background: linear-gradient(to right, #fff, #fff, #cdebf9);
+	background: linear-gradient(to right, #fff, #fff, #42c2f4);
 	position: fixed;
 	width: 100% !important;
+	border-radius: 0 0 5px 5px;
 }
 
 .not-header {
