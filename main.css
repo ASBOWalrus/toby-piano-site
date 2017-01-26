@@ -24,14 +24,8 @@ footer .row {
 	align-items: center;
 }
 
-header h1 {
-	font-weight: 700;
-	margin: 0;
-}
-
-header h3 {
-	margin-top: 0.6em;
-	margin-bottom: 0;
+header .row img {
+	width: 200px;
 }
 
 header nav {
