@@ -7,15 +7,15 @@ body {
 }
 
 header {
+	margin-top: 75px;
 	padding: 20px 0;
-	background: linear-gradient(to right, #fff, #fff, #92d9fc);
+	background: linear-gradient(to right, rgba(255,255,255,0.75), rgba(255,255,255,0.75), rgba(146,217,252,0.75));
 	position: fixed;
 	width: 100% !important;
 	border-radius: 0 0 5px 5px;
 }
 
 .not-header {
-	padding-top: 128px;
 }
 
 header .row,
@@ -30,7 +30,8 @@ header h1 {
 }
 
 header h3 {
-	margin-top: 0.5em;
+	margin-top: 0.6em;
+	margin-bottom: 0;
 }
 
 header nav {
@@ -69,7 +70,7 @@ header p {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 600px;
+	height: 800px;
 	color: #fff;
 	text-shadow: 0.25px 0.25px 0.25px #000000;
 }
