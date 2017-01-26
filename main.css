@@ -12,7 +12,6 @@ header {
 	background: linear-gradient(to right, rgba(255,255,255,0.75), rgba(255,255,255,0.75), rgba(146,217,252,0.75));
 	position: fixed;
 	width: 100% !important;
-	border-radius: 0 0 5px 5px;
 }
 
 .not-header {
