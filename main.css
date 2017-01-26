@@ -1,24 +1,20 @@
 * {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 body {
-	background-color: #d3d3d3;
+	background-color: #cdebf9;
 }
 
 header {
 	padding: 20px 0;
-	background: linear-gradient(#d3d3d3, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #d3d3d3);
+	background: linear-gradient(to right, #fff, #fff, #cdebf9);
 	position: fixed;
 	width: 100% !important;
 }
 
 .not-header {
 	padding-top: 128px;
-}
-
-header .row {
-	display: flex;
 }
 
 header .row,
@@ -37,7 +33,6 @@ header h3 {
 }
 
 header nav {
-	margin-right: 500px;
 	display: flex;
 	justify-content: flex-end;
 }
@@ -78,7 +73,6 @@ header p {
 
 footer {
 	margin: 50px 0;
-	background-color: #d3d3d3;
 }
 
 footer .col-sm-12 {
