@@ -3,12 +3,12 @@
 }
 
 body {
-	background-color: #cdebf9;
+	background-color: #dbf8ff;
 }
 
 header {
 	padding: 20px 0;
-	background: linear-gradient(to right, #fff, #fff, #42c2f4);
+	background: linear-gradient(to right, #fff, #fff, #92d9fc);
 	position: fixed;
 	width: 100% !important;
 	border-radius: 0 0 5px 5px;
