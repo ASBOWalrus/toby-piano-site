@@ -65,11 +65,10 @@ header p {
 	margin: 0;
 	display: flex;
 	align-items: center;
-	background-image: url(images/jumbotron-piano.jpg);
+	background-image: url(images/MFW.png);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
 	height: 850px;
 	color: #fff;
 	text-shadow: 0.5px 0.5px 0.5px #000000;
