@@ -15,9 +15,6 @@ header {
 	border-radius: 0 0 50px 0;
 }
 
-.not-header {
-}
-
 header .row,
 footer .row {
 	display: flex;
@@ -25,7 +22,7 @@ footer .row {
 }
 
 header .row img {
-	width: 200px;
+	width: 100px;
 }
 
 header nav {
@@ -37,11 +34,6 @@ header a {
 	color: #000;
 }
 
-header p {
-	padding: 0 20px;
-	margin: 0;
-}
-
 .btn {
 	margin: 0;
 	padding: 10px 15px 10px 15px;
@@ -49,6 +41,7 @@ header p {
 	border: 0px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
+	transition: All 0.5s ease;
 }
 
 .btn:hover {
@@ -81,17 +74,14 @@ header p {
 }
 
 footer {
-	margin: 50px 0;
+	margin: 30px 0;
 }
 
 footer .col-sm-12 {
-	margin: 0;
 	display: flex;
 }
 
 footer ul {
-	padding:left: 0;
-	padding:right: 0;
 	justify-content: center;
 	list-style: none;
 }
