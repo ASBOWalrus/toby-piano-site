@@ -60,17 +60,20 @@ header a {
 	height: 850px;
 	color: #fff;
 	text-shadow: 0.5px 0.5px 0.5px #000000;
-	overflow: auto;
 }
 
 .jumbotron .container {
+	margin-top: 200px;
 	margin-bottom: 3em;
+	margin-left: 200px;
+	height: 80%;
+	width: 100%;
+	overflow: auto;
 }
 
 .jumbotron h1 {
 	font-size: 80px;
 	font-weight: 500;
-	margin-top: 7em;
 }
 
 .about-body {
