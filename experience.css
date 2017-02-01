@@ -14,7 +14,7 @@ header {
 	padding: 20px 0;
 	position: fixed;
 	top: 0;
-	background: linear-gradient(to right, rgba(255, 255, 255,0.7), rgba(255, 255, 255, 0.7), rgba(146, 217, 252, 0.7));
+	background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255), rgb(146, 217, 252));
 	transition: top 0.2s ease-in-out;
 	height: 10vh;
 	width: 100% !important;
