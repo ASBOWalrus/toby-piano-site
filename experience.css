@@ -1,4 +1,4 @@
-* {
+﻿* {
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -80,14 +80,17 @@ header a {
 	font-weight: 500;
 }
 
-.about-body {
-	padding-top: 3em;
+.recent {
+	margin-top: 2.5em;
 }
 
-.about-body img {
-	height: 200px;
-	float: left;
-	padding-right: 2em;
+.popular {
+	margin-top: 1em;
+}
+
+.embedded-video {
+	margin-top: 1em;
+	margin-right: 1em;
 }
 
 footer {
