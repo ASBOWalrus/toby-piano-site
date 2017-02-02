@@ -63,16 +63,17 @@ header a {
 	margin: 0 auto -10vh;
 	min-height: 100%;
 	display: flex;
-	background-image: url(images/jumbotron-piano.jpg);
+	background-image: url(../images/jumbotron-piano.jpg);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	color: #fff;
+	text-shadow: 0.5px 0.5px 0.5px #000000;
 }
 
 .jumbotron .container {
 	margin-top: 10vh;
-	margin-bottom: 10em;
 	margin-left: 200px;
 	height: 100%;
 	width: 100%;
@@ -81,49 +82,22 @@ header a {
 .jumbotron h1 {
 	font-size: 80px;
 	font-weight: 500;
-	color: #fff;
-	text-shadow: 0.5px 0.5px 0.5px #000;
 }
 
-.repertoire-body {
+.jumbotron p {
+	font-size: 28px;
+	margin-bottom: 1.5em;
+}
+
+.about-body {
 	padding-top: 3em; 
 }
 
-.acc-section {
-	margin-bottom: 20px;
-}
-
-button.accordion {
-	background-color: #dbf8ff;
-	padding: 18px;
-	width: 50%;
-	text-align: left;
-	font-size: 24px;
-	border: none;
-	outline: none;
-	transition: 0.5s;
-}
-
-button.accordion.active, button.accordion:hover {
-	background-color: rgb(146,217,252);
-}
-
-div.panel {
-	padding: 0 18px;
-	width: 50%;
-	background-color: #dbf8ff;
-	font-size: 20px;
-	border-radius: 0 0 10px 10px;
-	outline: none;
-	display: none;
-}
-
-.accordion ul {
-	padding-top: 10px;
-}
-
-li {
-	padding-bottom: 10px;
+.about-body img {
+	height: 200px;
+	float: left;
+	margin-top: 0.75em;
+	padding-right: 2em;
 }
 
 footer, .push {

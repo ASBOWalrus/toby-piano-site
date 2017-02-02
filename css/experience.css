@@ -1,4 +1,4 @@
-* {
+﻿* {
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -63,7 +63,7 @@ header a {
 	margin: 0 auto -10vh;
 	min-height: 100%;
 	display: flex;
-	background-image: url(images/jumbotron-piano.jpg);
+	background-image: url(../images/jumbotron-piano.jpg);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -74,6 +74,7 @@ header a {
 
 .jumbotron .container {
 	margin-top: 10vh;
+	margin-bottom: 10em;
 	margin-left: 200px;
 	height: 100%;
 	width: 100%;
@@ -84,20 +85,22 @@ header a {
 	font-weight: 500;
 }
 
-.jumbotron p {
-	font-size: 28px;
-	margin-bottom: 1.5em;
+.jumbotron h2 {
+	margin-bottom: 1em;
 }
 
-.about-body {
-	padding-top: 3em; 
+.recent {
+	margin-top: 2.5em;
 }
 
-.about-body img {
-	height: 200px;
-	float: left;
-	margin-top: 0.75em;
-	padding-right: 2em;
+.popular {
+	margin-top: 1em;
+}
+
+.embedded-video {
+	margin-bottom: 1em;
+	margin-right: 1em;
+	border: 3px inset rgb(146, 217, 252);
 }
 
 footer, .push {

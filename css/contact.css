@@ -1,0 +1,124 @@
+* {
+	font-family: 'Raleway', sans-serif;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	background-color: #dbf8ff;
+}
+
+.nav-up {
+	top: -10vh;
+}
+
+header {
+	padding: 20px 0;
+	position: fixed;
+	top: 0;
+	background: radial-gradient(at top left, rgb(255,255,255), rgb(255,255,255), rgb(255,255,255), rgb(146,217,252), rgb(146,217,252));
+	transition: top 0.2s ease-in-out;
+	height: 10vh;
+	width: 100% !important;
+	border-radius: 0 0 50px 0;
+}
+
+header .row,
+footer .row {
+	display: flex;
+	align-items: center;
+}
+
+header .row img {
+	width: 100px;
+}
+
+header nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
+header a {
+	color: #000;
+}
+
+.btn {
+	margin: 0;
+	padding: 10px 15px 10px 15px;
+	border-radius: 20px;
+	border: 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	transition: All 0.5s ease;
+}
+
+.btn:hover {
+	background-color: #fff;
+}
+
+.jumbotron {
+	margin: 0 auto -10vh;
+	min-height: 100%;
+	display: flex;
+	background-image: url(../images/jumbotron-piano.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	text-shadow: 0.5px 0.5px 0.5px #000;
+}
+
+.jumbotron .container {
+	margin-top: 10vh;
+	margin-left: 200px;
+	height: 100%;
+	width: 100%;
+}
+
+.jumbotron h1 {
+	font-size: 80px;
+	font-weight: 500;
+}
+
+.jumbotron li {
+	font-size: 28px;
+}
+
+.contact-body {
+	padding-top: 3em; 
+}
+
+.contact-personal {
+	margin-bottom: 2em;
+}
+
+.contact-social a {
+	color: #fff;
+}
+
+footer, .push {
+	height: 10vh;
+}
+
+footer {
+	padding-top: 30px;
+	background-color: #dbf8ff;
+	width: 100% !important;
+}
+
+footer .col-sm-12 {
+	display: flex;
+}
+
+footer ul {
+	justify-content: center;
+	list-style: none;
+}
+
+footer img {
+	height: 32px;
+}

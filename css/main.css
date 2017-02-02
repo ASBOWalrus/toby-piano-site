@@ -64,7 +64,7 @@ header a {
 	min-height: 100%;
 	display: flex;
 	align-items: center;
-	background-image: url(images/jumbotron-piano.jpg);
+	background-image: url(../images/jumbotron-piano.jpg);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
