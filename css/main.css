@@ -156,6 +156,7 @@ div.panel {
 
 #experience {
 	margin-left: 200px;
+	margin-right: 200px;
 }
 
 #experience h2 {
@@ -172,14 +173,18 @@ div.panel {
 
 .popular p {
 	margin-bottom: 2em;
+	width: 640px;
 }
 
 #pop-1, #pop-3 {
 	float: left;
 }
 
+#pop-2, #pop-4 {
+	float: right;
+}
+
 .embedded-video {
-	margin-right: 1em;
 	border: 3px inset rgb(146, 217, 252);
 }
 
