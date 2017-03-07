@@ -57,7 +57,7 @@
           <ul class="col-xs-12" id="social-list">
             <li>
               <a target="_blank" href="https://www.facebook.com/bombshellshorncastle">
-                <img src="images/fb-logo.png" alt="Facebook">
+                <img src="../images/fb-logo.png" alt="Facebook">
               </a>
             </li>
           </ul> 
