@@ -87,18 +87,17 @@ main {
 	color: #000;
 }
 
-main h1 {
-	font-size: 52px;
-	background-color: rgba(146,217,252, 0.8);
-}
-
 #about {
 	margin-left: 10vw;
+	width: 60%;
+}
+
+main h1 {
+	font-size: 52px;
 }
 
 .about-body {
 	padding-top: 1em;
-	width: 75%;
 }
 
 .about-body img {
@@ -157,6 +156,7 @@ div.panel {
 
 #experience {
 	margin-left: 10vw;
+	margin-right: 10vw;
 }
 
 #experience h2 {
@@ -171,7 +171,7 @@ div.panel {
 	margin-top: 1em;
 }
 
-.vid-desc {
+.popular div {
 	display: inline-block;
 	padding-right: 1em;
 }
